@@ -78,8 +78,8 @@ plugins:
 
 # Page tree
 nav:
+  - What is LangFlow?: index.md
   - Getting Started:
-    - What is LangFlow?: langflow.md
     - Installation: installation.md
     # - Run Locally: locally.md
     # - Run Docker: local-development.md
