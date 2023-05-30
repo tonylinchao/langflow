@@ -1,4 +1,4 @@
-# 🔄 How to Upload Examples
+# How to Upload Examples
 
 We welcome all examples that can help our community learn and explore the features of our open-source software.
 Langflow Examples is a repository on [GitHub](https://github.com/logspace-ai/langflow_examples){.internal-link target=_blank} that contains examples of flows that you can upload to Langflow.

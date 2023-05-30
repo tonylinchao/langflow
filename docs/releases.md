@@ -3,19 +3,56 @@
 🎉 We're thrilled to announce our latest release, packed with exciting updates and improvements to enhance your experience. Here's what you can look forward to:
 
 <br>
-🚀 Deploy using Langchain-Serve: LangFlow can now be deployed with @JinaAI_. Thanks to @_deepankarm_ for the contribution! 🙌
+🪄 Interface Updates
 
 <br>
-📑 Copy and Paste Nodes
+💫 New Components & Enhancements
 
 <br>
-🔙 Undo/Redo Functionality.
+⌨️ Code Refactoring & Optimization
 
 <br>
-And more… Bug Fixes, Validation, and Build improvements! 💫
+🐛 A range of updates and bug fixes!
 
 <br>
 We're constantly striving to improve our platform and provide you with the best tools and features. Stay tuned for more updates as we continue to evolve and meet your needs. Thank you for being a part of our journey! ✨🚀
+
+## v0.0.79
+
+### What's Changed
+* hot fix for dinamic size of font for buttonBox component by @anovazzi1 in https://github.com/logspace-ai/langflow/pull/337
+* add useEffect to prevent chat lock on fail of onClose method by @anovazzi1 in https://github.com/logspace-ai/langflow/pull/342
+* Hotfix for Import Flows modal by @lucaseduoli in https://github.com/logspace-ai/langflow/pull/357
+* fix crash when upload large file, not saving files on browser storage by @anovazzi1 in https://github.com/logspace-ai/langflow/pull/362
+* Refactor Vector stores creator to help implementing others by @ogabrielluiz in https://github.com/logspace-ai/langflow/pull/365
+* 🔨 refactor(base.py): refactor FrontendNode.format_field() method to improve readability and maintainability by @ogabrielluiz in https://github.com/logspace-ai/langflow/pull/363
+* Changes to accomodate new vector stores by @ogabrielluiz in https://github.com/logspace-ai/langflow/pull/366
+* fix: SQLAgent by @gabfr in https://github.com/logspace-ai/langflow/pull/370
+* Add First Version of Generic Modal Input Model by @Cristhianzl in https://github.com/logspace-ai/langflow/pull/369
+* Activating HuggingFaceEmbeddings, adding Jina deps by @ogabrielluiz in https://github.com/logspace-ai/langflow/pull/378
+* Hotfix: fix bug on refresh and and for sending files to backend by @anovazzi1 in https://github.com/logspace-ai/langflow/pull/384
+* feat: notion directory loader by @gabfr in https://github.com/logspace-ai/langflow/pull/382
+* Error Handling for Modal Calls in Different Flows Prompt/Text by @Cristhianzl in https://github.com/logspace-ai/langflow/pull/390
+* Add Cohere LLM by @ogabrielluiz in https://github.com/logspace-ai/langflow/pull/388
+* Pull Request: UI Feature Enhancements by @Cristhianzl in https://github.com/logspace-ai/langflow/pull/393
+* Revert "Add Cohere LLM" by @gustavoschaedler in https://github.com/logspace-ai/langflow/pull/394
+* Adding support for Ctransformers by @ogabrielluiz in https://github.com/logspace-ai/langflow/pull/387
+* 🚀 feat(langflow): add support for extra fields in VectorStoreFrontendNode by @ogabrielluiz in https://github.com/logspace-ai/langflow/pull/396
+* Add Cohere LLM by @gustavoschaedler in https://github.com/logspace-ai/langflow/pull/397
+* Adding scrollbar on overflow itens modal by @Cristhianzl in https://github.com/logspace-ai/langflow/pull/400
+* feat: SlackDirectoryLoader by @gabfr in https://github.com/logspace-ai/langflow/pull/383
+* Add Icons module by @ogabrielluiz in https://github.com/logspace-ai/langflow/pull/368
+* Added format_instructions to ZeroShotPrompt by @ogabrielluiz in https://github.com/logspace-ai/langflow/pull/402
+* added custom icon pack for special cases  by @anovazzi1 in https://github.com/logspace-ai/langflow/pull/405
+* UI Improvements: tooltip, classes icons e icons by @Cristhianzl in https://github.com/logspace-ai/langflow/pull/404
+* New LLMs, Embeddings and UI improvements by @ogabrielluiz in https://github.com/logspace-ai/langflow/pull/407
+
+#### New Contributors
+* @gabfr made their first contribution in https://github.com/logspace-ai/langflow/pull/370
+* @Cristhianzl made their first contribution in https://github.com/logspace-ai/langflow/pull/369
+* @gustavoschaedler made their first contribution in https://github.com/logspace-ai/langflow/pull/394
+
+**Full Changelog**: https://github.com/logspace-ai/langflow/compare/v0.0.78...v0.0.79
 
 ## v0.0.78
 
