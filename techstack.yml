@@ -1,0 +1,1094 @@
+repo_name: tonylinchao/langflow
+report_id: 7b83b13fe9758f20d1c028d9e6f2158c
+version: 0.1
+repo_type: Public
+timestamp: '2023-12-29T09:03:55+00:00'
+requested_by: ogabrielluiz
+provider: github
+branch: dev
+detected_tools_count: 76
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source: Repo Metadata
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source: Repo Metadata
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source: Repo Metadata
+- name: Autoprefixer
+  description: PostCSS plugin to parse CSS and add vendor prefixes to CSS rules
+  website_url: https://github.com/postcss/autoprefixer
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/2202/72d087642cfce6fef6f2dabec5bf49e8_400x400.png
+  detection_source: src/frontend/package.json
+  last_updated_by: Your Name
+  last_updated_on: 2023-05-10 18:00:09.000000000 Z
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source: docker-compose.yml
+  last_updated_by: Gabriel Almeida
+  last_updated_on: 2023-03-19 14:11:47.000000000 Z
+- name: PostCSS
+  description: Transform CSS with JS plugins
+  website_url: https://github.com/postcss/postcss
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/3339/rlFcjEdI.png
+  detection_source: src/frontend/package.json
+  last_updated_by: anovazzi1
+  last_updated_on: 2023-02-08 22:50:42.000000000 Z
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 18.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: https://github.com/tonylinchao/langflow/blob/dev/src/frontend/package-lock.json
+  detection_source: src/frontend/package.json
+  last_updated_by: Cristhian Zanforlin Lousa
+  last_updated_on: 2023-06-08 15:05:32.000000000 Z
+- name: React Router
+  description: A complete routing solution for React.js
+  website_url: https://github.com/rackt/react-router
+  version: 6.8.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: JavaScript Framework Components
+  image_url: https://img.stackshare.io/service/3350/8261421.png
+  detection_source_url: https://github.com/tonylinchao/langflow/blob/dev/src/frontend/package-lock.json
+  detection_source: src/frontend/package.json
+  last_updated_by: Cristhian Zanforlin Lousa
+  last_updated_on: 2023-06-08 15:05:32.000000000 Z
+- name: Tailwind CSS
+  description: A utility-first CSS framework for rapid UI development
+  website_url: https://tailwindcss.com
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/8158/default_660b7c41c3ba489cb581eec89c04655404258c19.png
+  detection_source: src/frontend/package.json
+  last_updated_by: Cristhian Zanforlin Lousa
+  last_updated_on: 2023-06-07 01:55:15.000000000 Z
+- name: Chroma
+  description: The AI-native open-source embedding database
+  website_url: https://www.trychroma.com/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/101828/default_de3ae68ae3ebc7fda7f97083ea89a050444976ff.png
+  detection_source: pyproject.toml
+  last_updated_by: Ibis Prevedello
+  last_updated_on: 2023-04-06 16:55:07.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source: Repo Metadata
+- name: Esbuild
+  description: An extremely fast JavaScript bundler
+  website_url: https://esbuild.github.io/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/25166/default_2dcc9286a150737a14625d18f6f93747f72be430.png
+  detection_source: src/frontend/package.json
+  last_updated_by: Gabriel Luiz Freitas Almeida
+  last_updated_on: 2023-06-08 19:38:41.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source: ".github/workflows/lint.yml"
+  last_updated_by: ogabrielluiz
+  last_updated_on: 2023-03-07 16:08:12.000000000 Z
+- name: Jest
+  description: Painless JavaScript Unit Testing
+  website_url: http://facebook.github.io/jest/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/830/jest.png
+  detection_source: src/frontend/package.json
+  last_updated_by: anovazzi1
+  last_updated_on: 2023-02-08 22:50:42.000000000 Z
+- name: NGINX
+  description: A high performance free open source web server powering busiest sites
+    on the Internet.
+  website_url: http://nginx.org
+  open_source: false
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Web Servers
+  image_url: https://img.stackshare.io/service/1052/YMxUfyWf.png
+  detection_source: src/frontend/nginx.conf
+  last_updated_by: Ibis Prevedello
+  last_updated_on: 2023-03-02 22:56:42.000000000 Z
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source: pyproject.toml
+  last_updated_by: Ibis Prevedello
+  last_updated_on: 2023-03-02 01:55:44.000000000 Z
+- name: Vite
+  description: Native-ESM powered web dev build tool
+  website_url: https://vitejs.dev/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/21547/default_1aeac791cde11ff66cc0b20dcc6144eeb185c905.png
+  detection_source: src/frontend/package.json
+  last_updated_by: anovazzi1
+  last_updated_on: 2023-02-08 22:50:42.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source: src/frontend/package.json
+  last_updated_by: anovazzi1
+  last_updated_on: 2023-02-08 22:50:42.000000000 Z
+- name: Claude
+  description: A next-generation AI assistant for your tasks, no matter the scale
+  website_url: https://www.anthropic.com/product
+  version: 0.2.10
+  open_source: false
+  hosted_saas: false
+  category: Communications
+  sub_category: Large Language Models
+  image_url: https://img.stackshare.io/service/101883/default_fddf1fbe1d52baf4dac573b2b7fc24b78cc729b1.jpg
+  detection_source_url: https://github.com/tonylinchao/langflow/blob/dev/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: Ibis Prevedello
+  last_updated_on: 2023-03-02 01:55:44.000000000 Z
+- name: Cohere.com
+  description: Add cutting-edge language processing to any system
+  website_url: https://cohere.com/
+  version: 4.9.0
+  open_source: false
+  hosted_saas: false
+  category: Communications
+  sub_category: Large Language Models
+  image_url: https://img.stackshare.io/service/101884/default_cf6d4a823cb5b37940800efc1e952b6a6c74e32a.png
+  detection_source_url: https://github.com/tonylinchao/langflow/blob/dev/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: GMS
+  last_updated_on: 2023-05-29 19:40:17.000000000 Z
+- name: LLaMA
+  description: A foundational, 65-billion-parameter large language model (By Facebook)
+  website_url: https://ai.meta.com/blog/large-language-model-llama-meta-ai/
+  open_source: true
+  hosted_saas: false
+  category: Communications
+  sub_category: Large Language Models
+  image_url: https://img.stackshare.io/service/101870/default_110df704ee9867cb49e02a51b680222cc0b61823.png
+  detection_source: pyproject.toml
+  last_updated_by: Ibis Prevedello
+  last_updated_on: 2023-03-02 01:55:44.000000000 Z
+- name: LangChain
+  description: Build AI apps with LLMs through composability
+  website_url: https://github.com/hwchase17/langchain
+  version: 0.0.194
+  open_source: true
+  hosted_saas: false
+  category: Communications
+  sub_category: Large Language Model Tools
+  image_url: https://img.stackshare.io/service/48790/default_5b6c6b73f1ff3775c85d2a1ba954cb87e30cbf13.jpg
+  detection_source_url: https://github.com/tonylinchao/langflow/blob/dev/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: Gabriel Luiz Freitas Almeida
+  last_updated_on: 2023-06-08 11:45:20.000000000 Z
+- name: Lodash
+  description: A JavaScript utility library
+  website_url: https://lodash.com
+  version: 4.17.21
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/2438/lodash.png
+  detection_source_url: https://github.com/tonylinchao/langflow/blob/dev/src/frontend/package-lock.json
+  detection_source: src/frontend/package.json
+  last_updated_by: Your Name
+  last_updated_on: 2023-05-10 18:00:09.000000000 Z
+- name: OpenAI
+  description: Creating safe AGI that benefits all
+  website_url: https://openai.com/
+  version: 0.27.8
+  open_source: false
+  hosted_saas: false
+  category: Communications
+  sub_category: Large Language Models
+  image_url: https://img.stackshare.io/service/48786/default_8b1119bcbb159cebebc2f6cfc9cd2e359b169d22.jpg
+  detection_source_url: https://github.com/tonylinchao/langflow/blob/dev/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: Ibis Prevedello
+  last_updated_on: 2023-03-02 01:55:44.000000000 Z
+- name: Sentence Transformers
+  description: Multilingual sentence, paragraph, and image embeddings
+  website_url: https://www.sbert.net/
+  version: 2.2.2
+  open_source: false
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: NLP / Sentiment Analysis
+  image_url: https://img.stackshare.io/service/109224/default_1167b8b1fc15f3526701cde5a789734ae865925d.png
+  detection_source_url: https://github.com/tonylinchao/langflow/blob/dev/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: Gabriel Almeida
+  last_updated_on: 2023-05-28 20:15:10.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source: Repo Metadata
+- name: axios
+  description: Promise based HTTP client for the browser and node.js
+  website_url: https://github.com/mzabriskie/axios
+  version: 1.3.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/tonylinchao/langflow/blob/dev/src/frontend/package-lock.json
+  detection_source: src/frontend/package.json
+  last_updated_by: ogabrielluiz
+  last_updated_on: 2023-03-09 14:18:58.000000000 Z
+- name: "@emotion/styled"
+  description: Styled API for emotion
+  package_url: https://www.npmjs.com/@emotion/styled
+  version: 11.10.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16702/default_4b738bf1758d38dddd276589bbea47fca5a990df.png
+  detection_source_url: https://github.com/tonylinchao/langflow/blob/dev/src/frontend/package-lock.json
+  detection_source: src/frontend/package.json
+  last_updated_by: ogabrielluiz
+  last_updated_on: 2023-03-09 14:18:58.000000000 Z
+- name: "@tailwindcss/typography"
+  description: A Tailwind CSS plugin for automatically styling plain HTML content
+    with beautiful typographic defaults
+  package_url: https://www.npmjs.com/@tailwindcss/typography
+  version: 0.5.9
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/tonylinchao/langflow/blob/dev/src/frontend/package-lock.json
+  detection_source: src/frontend/package.json
+  last_updated_by: Cristhian Zanforlin Lousa
+  last_updated_on: 2023-06-07 01:55:15.000000000 Z
+- name: "@testing-library/jest-dom"
+  description: Custom jest matchers to test the state of the DOM
+  package_url: https://www.npmjs.com/@testing-library/jest-dom
+  version: 5.16.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17424/default_1cdcda15ebb7caed879f8340bc212b44c4ec9dac.png
+  detection_source_url: https://github.com/tonylinchao/langflow/blob/dev/src/frontend/package-lock.json
+  detection_source: src/frontend/package.json
+  last_updated_by: Your Name
+  last_updated_on: 2023-05-10 18:00:09.000000000 Z
+- name: "@testing-library/react"
+  description: Simple and complete React DOM testing utilities that encourage good
+    testing practices
+  package_url: https://www.npmjs.com/@testing-library/react
+  version: 13.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16549/default_d522554c6a41cb28d922d6d3ad32ad4afa0e3bb5.png
+  detection_source_url: https://github.com/tonylinchao/langflow/blob/dev/src/frontend/package-lock.json
+  detection_source: src/frontend/package.json
+  last_updated_by: Cristhian Zanforlin Lousa
+  last_updated_on: 2023-06-08 15:05:32.000000000 Z
+- name: "@types/jest"
+  description: TypeScript definitions for Jest
+  package_url: https://www.npmjs.com/@types/jest
+  version: 27.5.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15840/default_004658cda9b38934f2871435e9dc15608c86e8be.png
+  detection_source_url: https://github.com/tonylinchao/langflow/blob/dev/src/frontend/package-lock.json
+  detection_source: src/frontend/package.json
+  last_updated_by: Your Name
+  last_updated_on: 2023-05-10 18:00:09.000000000 Z
+- name: "@types/lodash"
+  description: TypeScript definitions for Lo-Dash
+  package_url: https://www.npmjs.com/@types/lodash
+  version: 4.14.194
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15945/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: https://github.com/tonylinchao/langflow/blob/dev/src/frontend/package-lock.json
+  detection_source: src/frontend/package.json
+  last_updated_by: Your Name
+  last_updated_on: 2023-05-10 18:00:09.000000000 Z
+- name: "@types/node"
+  description: TypeScript definitions for Node.js
+  package_url: https://www.npmjs.com/@types/node
+  version: 16.18.12
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: https://github.com/tonylinchao/langflow/blob/dev/src/frontend/package-lock.json
+  detection_source: src/frontend/package.json
+  last_updated_by: Your Name
+  last_updated_on: 2023-05-10 18:00:09.000000000 Z
+- name: "@types/react"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react
+  version: 18.2.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15894/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/tonylinchao/langflow/blob/dev/src/frontend/package-lock.json
+  detection_source: src/frontend/package.json
+  last_updated_by: Cristhian Zanforlin Lousa
+  last_updated_on: 2023-06-08 15:05:32.000000000 Z
+- name: "@types/react-dom"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react-dom
+  version: 18.2.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15946/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: https://github.com/tonylinchao/langflow/blob/dev/src/frontend/package-lock.json
+  detection_source: src/frontend/package.json
+  last_updated_by: Cristhian Zanforlin Lousa
+  last_updated_on: 2023-06-08 15:05:32.000000000 Z
+- name: "@types/uuid"
+  description: TypeScript definitions for uuid
+  package_url: https://www.npmjs.com/@types/uuid
+  version: 9.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16257/default_ab17554b7e80af3d234b14168ed61e75d43f8eee.png
+  detection_source_url: https://github.com/tonylinchao/langflow/blob/dev/src/frontend/package-lock.json
+  detection_source: src/frontend/package.json
+  last_updated_by: Cristhian Zanforlin Lousa
+  last_updated_on: 2023-06-07 01:55:15.000000000 Z
+- name: base64-js
+  description: Base64 encoding/decoding in pure JS
+  package_url: https://www.npmjs.com/base64-js
+  version: 1.5.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17396/default_2cd7ed1c123f2fca074a6f4b16c4e73d5bfe82be.png
+  detection_source_url: https://github.com/tonylinchao/langflow/blob/dev/src/frontend/package-lock.json
+  detection_source: src/frontend/package.json
+  last_updated_by: anovazzi1
+  last_updated_on: 2023-04-26 00:23:13.000000000 Z
+- name: react-ace
+  description: A react component for Ace Editor
+  package_url: https://www.npmjs.com/react-ace
+  version: 10.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18432/default_090197a87d306c919c7dbc09bfedd02e3b061236.png
+  detection_source_url: https://github.com/tonylinchao/langflow/blob/dev/src/frontend/package-lock.json
+  detection_source: src/frontend/package.json
+  last_updated_by: Cristhian Zanforlin Lousa
+  last_updated_on: 2023-06-08 15:05:32.000000000 Z
+- name: react-dom
+  description: React package for working with the DOM
+  package_url: https://www.npmjs.com/react-dom
+  version: 18.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/tonylinchao/langflow/blob/dev/src/frontend/package-lock.json
+  detection_source: src/frontend/package.json
+  last_updated_by: Cristhian Zanforlin Lousa
+  last_updated_on: 2023-06-08 15:05:32.000000000 Z
+- name: react-error-boundary
+  description: Simple reusable React error boundary component
+  package_url: https://www.npmjs.com/react-error-boundary
+  version: 4.0.2
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/tonylinchao/langflow/blob/dev/src/frontend/package-lock.json
+  detection_source: src/frontend/package.json
+  last_updated_by: Cristhian Zanforlin Lousa
+  last_updated_on: 2023-06-08 15:05:32.000000000 Z
+- name: react-icons
+  description: SVG React icons of popular icon packs using ES6 imports
+  package_url: https://www.npmjs.com/react-icons
+  version: 4.8.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16909/default_7b9968788548874538c601457e8dcd9c74bd2051.png
+  detection_source_url: https://github.com/tonylinchao/langflow/blob/dev/src/frontend/package-lock.json
+  detection_source: src/frontend/package.json
+  last_updated_by: Cristhian Zanforlin Lousa
+  last_updated_on: 2023-06-08 15:05:32.000000000 Z
+- name: react-markdown
+  description: Renders Markdown as React components
+  package_url: https://www.npmjs.com/react-markdown
+  version: 8.0.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17056/default_d17bbf7e4f3b102e29ff09c01b8165e7ba600319.png
+  detection_source_url: https://github.com/tonylinchao/langflow/blob/dev/src/frontend/package-lock.json
+  detection_source: src/frontend/package.json
+  last_updated_by: Cristhian Zanforlin Lousa
+  last_updated_on: 2023-06-08 15:05:32.000000000 Z
+- name: react-router-dom
+  description: DOM bindings for React Router
+  package_url: https://www.npmjs.com/react-router-dom
+  version: 6.8.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16025/default_e25d1fbb04a118c79fb444294461417342bd03bf.png
+  detection_source_url: https://github.com/tonylinchao/langflow/blob/dev/src/frontend/package-lock.json
+  detection_source: src/frontend/package.json
+  last_updated_by: Cristhian Zanforlin Lousa
+  last_updated_on: 2023-06-08 15:05:32.000000000 Z
+- name: react-syntax-highlighter
+  description: Syntax highlighting component for react with prismjs or highlightjs
+    ast using inline styles
+  package_url: https://www.npmjs.com/react-syntax-highlighter
+  version: 15.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17323/default_78541a280e8cac42279d6c363e71e5b8f462e962.png
+  detection_source_url: https://github.com/tonylinchao/langflow/blob/dev/src/frontend/package-lock.json
+  detection_source: src/frontend/package.json
+  last_updated_by: Cristhian Zanforlin Lousa
+  last_updated_on: 2023-06-08 15:05:32.000000000 Z
+- name: react-tabs
+  description: An accessible and easy tab component for ReactJS
+  package_url: https://www.npmjs.com/react-tabs
+  version: 6.0.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/tonylinchao/langflow/blob/dev/src/frontend/package-lock.json
+  detection_source: src/frontend/package.json
+  last_updated_by: Cristhian Zanforlin Lousa
+  last_updated_on: 2023-06-08 15:05:32.000000000 Z
+- name: react-tooltip
+  description: React tooltip component
+  package_url: https://www.npmjs.com/react-tooltip
+  version: 5.13.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17696/default_9693d58c90f5c726ee648423687212d2a94266da.png
+  detection_source_url: https://github.com/tonylinchao/langflow/blob/dev/src/frontend/package-lock.json
+  detection_source: src/frontend/package.json
+  last_updated_by: Cristhian Zanforlin Lousa
+  last_updated_on: 2023-06-08 15:05:32.000000000 Z
+- name: remark-gfm
+  description: Remark plugin to support GFM
+  package_url: https://www.npmjs.com/remark-gfm
+  version: 3.0.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/tonylinchao/langflow/blob/dev/src/frontend/package-lock.json
+  detection_source: src/frontend/package.json
+  last_updated_by: anovazzi1
+  last_updated_on: 2023-05-09 20:31:30.000000000 Z
+- name: table
+  description: Formats data into a string table
+  package_url: https://www.npmjs.com/table
+  version: 6.8.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17937/default_40b5ae806e118a20c1717c75a46652a7358d8b42.png
+  detection_source_url: https://github.com/tonylinchao/langflow/blob/dev/src/frontend/package-lock.json
+  detection_source: src/frontend/package.json
+  last_updated_by: Cristhian Zanforlin Lousa
+  last_updated_on: 2023-06-06 21:32:39.000000000 Z
+- name: tailwindcss
+  description: A utility-first CSS framework for rapidly building custom user interfaces
+  package_url: https://www.npmjs.com/tailwindcss
+  version: 3.3.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17398/default_2cd7ed1c123f2fca074a6f4b16c4e73d5bfe82be.png
+  detection_source_url: https://github.com/tonylinchao/langflow/blob/dev/src/frontend/package-lock.json
+  detection_source: src/frontend/package.json
+  last_updated_by: Cristhian Zanforlin Lousa
+  last_updated_on: 2023-06-07 01:55:15.000000000 Z
+- name: uuid
+  description: RFC4122
+  package_url: https://www.npmjs.com/uuid
+  version: 9.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15916/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/tonylinchao/langflow/blob/dev/src/frontend/package-lock.json
+  detection_source: src/frontend/package.json
+  last_updated_by: Cristhian Zanforlin Lousa
+  last_updated_on: 2023-06-07 01:55:15.000000000 Z
+- name: vite
+  description: Native-ESM powered web dev build tool
+  package_url: https://www.npmjs.com/vite
+  version: 4.3.5
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/tonylinchao/langflow/blob/dev/src/frontend/package-lock.json
+  detection_source: src/frontend/package.json
+  last_updated_by: Cristhian Zanforlin Lousa
+  last_updated_on: 2023-06-07 01:55:15.000000000 Z
+  vulnerabilities:
+  - name: Vite Server Options (server.fs.deny) can be bypassed using double forward-slash
+      (//)
+    cve_id: CVE-2023-34092
+    cve_url: https://github.com/advisories/GHSA-353f-5xf4-qw67
+    detected_date: Nov 23
+    severity: high
+    first_patched: 4.3.9
+- name: anthropic
+  description: The official Python library for the anthropic API
+  package_url: https://pypi.org/project/anthropic
+  version: 0.2.10
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/tonylinchao/langflow/blob/dev/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: Jim White
+  last_updated_on: 2023-06-02 05:55:02.000000000 Z
+- name: beautifulsoup4
+  description: Screen-scraping library
+  package_url: https://pypi.org/project/beautifulsoup4
+  version: 4.12.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19838/default_85689b353a3a9409328e253ea28d859d29151e0c.png
+  detection_source_url: https://github.com/tonylinchao/langflow/blob/dev/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: Ibis Prevedello
+  last_updated_on: 2023-03-13 22:59:50.000000000 Z
+- name: chromadb
+  description: Chroma
+  package_url: https://pypi.org/project/chromadb
+  version: 0.3.26
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/tonylinchao/langflow/blob/dev/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: Ibis Prevedello
+  last_updated_on: 2023-04-06 16:55:07.000000000 Z
+- name: cohere
+  description: Python SDK for the Cohere API
+  package_url: https://pypi.org/project/cohere
+  version: 4.9.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/tonylinchao/langflow/blob/dev/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: GMS
+  last_updated_on: 2023-05-29 19:40:17.000000000 Z
+- name: dill
+  description: Serialize all of python
+  package_url: https://pypi.org/project/dill
+  version: 0.3.6
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19972/default_735d20726524f3a2b12f956af25bde52f942f85a.png
+  detection_source_url: https://github.com/tonylinchao/langflow/blob/dev/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: Gabriel Almeida
+  last_updated_on: 2023-04-01 20:25:19.000000000 Z
+- name: docstring-parser
+  description: Parse Python docstrings in reST and Google format
+  package_url: https://pypi.org/project/docstring-parser
+  version: '0.15'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/tonylinchao/langflow/blob/dev/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: Ibis Prevedello
+  last_updated_on: 2023-04-14 00:39:25.000000000 Z
+- name: fake-useragent
+  description: Up to date simple useragent faker with real world database
+  package_url: https://pypi.org/project/fake-useragent
+  version: 1.1.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/tonylinchao/langflow/blob/dev/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: Ibis Prevedello
+  last_updated_on: 2023-04-12 02:34:09.000000000 Z
+- name: fastapi
+  description: FastAPI framework
+  package_url: https://pypi.org/project/fastapi
+  version: 0.96.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20520/default_ded6d17aa418fbd05ff28b85345c77ab878c6b37.png
+  detection_source_url: https://github.com/tonylinchao/langflow/blob/dev/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: Gabriel Luiz Freitas Almeida
+  last_updated_on: 2023-06-05 00:42:14.000000000 Z
+- name: google-api-python-client
+  description: Google API Client Library for Python
+  package_url: https://pypi.org/project/google-api-python-client
+  version: 2.88.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19897/default_4343f8bba4f6051641ffca8b4fbe9b099402c84d.png
+  detection_source_url: https://github.com/tonylinchao/langflow/blob/dev/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: Gabriel Almeida
+  last_updated_on: 2023-05-28 20:36:37.000000000 Z
+- name: gunicorn
+  description: WSGI HTTP Server for UNIX
+  package_url: https://pypi.org/project/gunicorn
+  version: 20.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19931/default_74a0c20721d3a0a1484d69586401591fe8993db2.png
+  detection_source_url: https://github.com/tonylinchao/langflow/blob/dev/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: Ibis Prevedello
+  last_updated_on: 2023-03-13 22:59:50.000000000 Z
+- name: huggingface-hub
+  description: Client library to download and publish models
+  package_url: https://pypi.org/project/huggingface-hub
+  version: 0.13.4
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/tonylinchao/langflow/blob/dev/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: Gabriel Almeida
+  last_updated_on: 2023-04-06 15:13:08.000000000 Z
+- name: langchain
+  description: Building applications with LLMs through composability
+  package_url: https://pypi.org/project/langchain
+  version: 0.0.194
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/tonylinchao/langflow/blob/dev/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: Gabriel Luiz Freitas Almeida
+  last_updated_on: 2023-06-08 11:45:20.000000000 Z
+  vulnerabilities:
+  - name: langchain Code Injection vulnerability
+    cve_id: CVE-2023-36095
+    cve_url: https://github.com/advisories/GHSA-gwqq-6vq7-5j86
+    detected_date: Dec 8
+    severity: critical
+    first_patched: 0.0.236
+  - name: LangChain vulnerable to arbitrary code execution
+    cve_id: CVE-2023-38860
+    cve_url: https://github.com/advisories/GHSA-fj32-q626-pjjc
+    detected_date: Dec 8
+    severity: critical
+    first_patched: 
+  - name: LangChain vulnerable to arbitrary code execution
+    cve_id: CVE-2023-38896
+    cve_url: https://github.com/advisories/GHSA-92j5-3459-qgp4
+    detected_date: Dec 8
+    severity: critical
+    first_patched: 0.0.236
+  - name: langchain vulnerable to arbitrary code execution
+    cve_id: CVE-2023-36188
+    cve_url: https://github.com/advisories/GHSA-57fc-8q82-gfp3
+    detected_date: Dec 8
+    severity: critical
+    first_patched: 0.0.236
+  - name: Langchain vulnerable to arbitrary code execution
+    cve_id: CVE-2023-34541
+    cve_url: https://github.com/advisories/GHSA-6643-h7h5-x9wh
+    detected_date: Dec 8
+    severity: critical
+    first_patched: 0.0.247
+  - name: LangChain vulnerable to arbitrary code execution
+    cve_id: CVE-2023-39659
+    cve_url: https://github.com/advisories/GHSA-prgp-w7vf-ch62
+    detected_date: Dec 8
+    severity: critical
+    first_patched: 0.0.325
+  - name: Langchain OS Command Injection vulnerability
+    cve_id: CVE-2023-34540
+    cve_url: https://github.com/advisories/GHSA-x32c-59v5-h7fg
+    detected_date: Dec 8
+    severity: critical
+    first_patched: 0.0.225
+  - name: Langchain vulnerable to arbitrary code execution via the evaluate function
+      in the numexpr library
+    cve_id: CVE-2023-39631
+    cve_url: https://github.com/advisories/GHSA-f73w-4m7g-ch9x
+    detected_date: Dec 8
+    severity: critical
+    first_patched: 0.0.308
+  - name: langchain vulnerable to arbitrary code execution
+    cve_id: CVE-2023-36281
+    cve_url: https://github.com/advisories/GHSA-7gfq-f96f-g85j
+    detected_date: Dec 8
+    severity: critical
+    first_patched: 0.0.312
+  - name: langchain arbitrary code execution vulnerability
+    cve_id: CVE-2023-36258
+    cve_url: https://github.com/advisories/GHSA-2qmj-7962-cjq8
+    detected_date: Dec 8
+    severity: critical
+    first_patched: 0.0.247
+  - name: langchain SQL Injection vulnerability
+    cve_id: CVE-2023-36189
+    cve_url: https://github.com/advisories/GHSA-7q94-qpjr-xpgm
+    detected_date: Dec 8
+    severity: high
+    first_patched: 
+  - name: LangChain Server Side Request Forgery vulnerability
+    cve_id: CVE-2023-46229
+    cve_url: https://github.com/advisories/GHSA-655w-fm8m-m478
+    detected_date: Dec 8
+    severity: high
+    first_patched: 0.0.317
+  - name: Langchain Server-Side Request Forgery vulnerability
+    cve_id: CVE-2023-32786
+    cve_url: https://github.com/advisories/GHSA-6h8p-4hx9-w66c
+    detected_date: Dec 8
+    severity: high
+    first_patched: 0.0.329
+- name: lxml
+  description: Powerful and Pythonic XML processing library combining libxml2/libxslt
+    with the ElementTree API
+  package_url: https://pypi.org/project/lxml
+  version: 4.9.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19835/default_85689b353a3a9409328e253ea28d859d29151e0c.png
+  detection_source_url: https://github.com/tonylinchao/langflow/blob/dev/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: Ibis Prevedello
+  last_updated_on: 2023-04-12 02:34:09.000000000 Z
+- name: multiprocess
+  description: Better multiprocessing and multithreading in python
+  package_url: https://pypi.org/project/multiprocess
+  version: 0.70.14
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20654/default_4658783a4f70e14bc0c2a151840ea9736539842c.png
+  detection_source_url: https://github.com/tonylinchao/langflow/blob/dev/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: Gabriel Luiz Freitas Almeida
+  last_updated_on: 2023-06-07 02:30:21.000000000 Z
+- name: networkx
+  description: Python package for creating and manipulating graphs and networks
+  package_url: https://pypi.org/project/networkx
+  version: '3.1'
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19877/default_8902c10687fbcd6273bdbe119fff40fa1180763f.png
+  detection_source_url: https://github.com/tonylinchao/langflow/blob/dev/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: Gabriel Almeida
+  last_updated_on: 2023-04-10 18:20:42.000000000 Z
+- name: openai
+  description: The official Python library for the openai API
+  package_url: https://pypi.org/project/openai
+  version: 0.27.8
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/tonylinchao/langflow/blob/dev/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: Gabriel Almeida
+  last_updated_on: 2023-05-28 20:36:37.000000000 Z
+- name: pandas
+  description: Powerful data structures for data analysis
+  package_url: https://pypi.org/project/pandas
+  version: 1.5.3
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19837/default_85689b353a3a9409328e253ea28d859d29151e0c.png
+  detection_source_url: https://github.com/tonylinchao/langflow/blob/dev/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: Gabriel Almeida
+  last_updated_on: 2023-04-29 10:32:01.000000000 Z
+- name: psycopg2-binary
+  description: Psycopg2 - Python-PostgreSQL Database Adapter
+  package_url: https://pypi.org/project/psycopg2-binary
+  version: 2.9.6
+  license: BSD-3-Clause-Attribution
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/tonylinchao/langflow/blob/dev/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: Gabriel Almeida
+  last_updated_on: 2023-04-17 20:40:18.000000000 Z
+- name: pyarrow
+  description: Python library for Apache Arrow
+  package_url: https://pypi.org/project/pyarrow
+  version: 11.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20366/default_20f72d65682b6cad9939bcf162d0ef14fced900c.png
+  detection_source_url: https://github.com/tonylinchao/langflow/blob/dev/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: Gabriel Almeida
+  last_updated_on: 2023-04-19 03:48:22.000000000 Z
+  vulnerabilities:
+  - name: 'PyArrow: Arbitrary code execution when loading a malicious data file'
+    cve_id: CVE-2023-47248
+    cve_url: https://github.com/advisories/GHSA-5wvp-7f3h-6wmm
+    detected_date: Nov 10
+    severity: critical
+    first_patched: 14.0.1
+- name: uvicorn
+  description: The lightning-fast ASGI server
+  package_url: https://pypi.org/project/uvicorn
+  version: 0.20.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20431/default_f824837db22536768ec317b67275fa384fad7d47.png
+  detection_source_url: https://github.com/tonylinchao/langflow/blob/dev/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: Ibis Prevedello
+  last_updated_on: 2023-03-13 22:59:50.000000000 Z
+- name: websockets
+  description: An implementation of the WebSocket Protocol
+  package_url: https://pypi.org/project/websockets
+  version: 11.0.3
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19951/default_fbe690a687f1af7dc36ac3d526708be3294c4cc9.png
+  detection_source_url: https://github.com/tonylinchao/langflow/blob/dev/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: Gabriel Almeida
+  last_updated_on: 2023-05-27 02:09:56.000000000 Z
+- name: wikipedia
+  description: Wikipedia API for Python
+  package_url: https://pypi.org/project/wikipedia
+  version: 1.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/tonylinchao/langflow/blob/dev/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: Gabriel Almeida
+  last_updated_on: 2023-05-06 13:25:05.000000000 Z
