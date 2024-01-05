@@ -2,7 +2,7 @@ repo_name: tonylinchao/langflow
 report_id: 7b83b13fe9758f20d1c028d9e6f2158c
 version: 0.1
 repo_type: Public
-timestamp: '2023-12-29T09:03:55+00:00'
+timestamp: '2024-01-05T08:14:50+00:00'
 requested_by: ogabrielluiz
 provider: github
 branch: dev
@@ -16,6 +16,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/tonylinchao/langflow
   detection_source: Repo Metadata
 - name: JavaScript
   description: Lightweight, interpreted, object-oriented language with first-class
@@ -26,6 +27,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/tonylinchao/langflow
   detection_source: Repo Metadata
 - name: Python
   description: A clear and powerful object-oriented programming language, comparable
@@ -36,6 +38,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/tonylinchao/langflow
   detection_source: Repo Metadata
 - name: TypeScript
   description: A superset of JavaScript that compiles to clean JavaScript output
@@ -46,6 +49,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/tonylinchao/langflow
   detection_source: Repo Metadata
 - name: Autoprefixer
   description: PostCSS plugin to parse CSS and add vendor prefixes to CSS rules
@@ -55,6 +59,7 @@ tools:
   category: Languages & Frameworks
   sub_category: CSS Pre-processors / Extensions
   image_url: https://img.stackshare.io/service/2202/72d087642cfce6fef6f2dabec5bf49e8_400x400.png
+  detection_source_url: https://github.com/tonylinchao/langflow/blob/dev/src/frontend/package.json
   detection_source: src/frontend/package.json
   last_updated_by: Your Name
   last_updated_on: 2023-05-10 18:00:09.000000000 Z
@@ -67,6 +72,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/tonylinchao/langflow/blob/dev/docker-compose.yml
   detection_source: docker-compose.yml
   last_updated_by: Gabriel Almeida
   last_updated_on: 2023-03-19 14:11:47.000000000 Z
@@ -79,6 +85,7 @@ tools:
   category: Languages & Frameworks
   sub_category: CSS Pre-processors / Extensions
   image_url: https://img.stackshare.io/service/3339/rlFcjEdI.png
+  detection_source_url: https://github.com/tonylinchao/langflow/blob/dev/src/frontend/package.json
   detection_source: src/frontend/package.json
   last_updated_by: anovazzi1
   last_updated_on: 2023-02-08 22:50:42.000000000 Z
@@ -119,6 +126,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Front-End Frameworks
   image_url: https://img.stackshare.io/service/8158/default_660b7c41c3ba489cb581eec89c04655404258c19.png
+  detection_source_url: https://github.com/tonylinchao/langflow/blob/dev/src/frontend/package.json
   detection_source: src/frontend/package.json
   last_updated_by: Cristhian Zanforlin Lousa
   last_updated_on: 2023-06-07 01:55:15.000000000 Z
@@ -130,6 +138,7 @@ tools:
   category: Data Stores
   sub_category: Databases
   image_url: https://img.stackshare.io/service/101828/default_de3ae68ae3ebc7fda7f97083ea89a050444976ff.png
+  detection_source_url: https://github.com/tonylinchao/langflow/blob/dev/pyproject.toml
   detection_source: pyproject.toml
   last_updated_by: Ibis Prevedello
   last_updated_on: 2023-04-06 16:55:07.000000000 Z
@@ -142,6 +151,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Virtual Machine Platforms & Containers
   image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/tonylinchao/langflow
   detection_source: Repo Metadata
 - name: Esbuild
   description: An extremely fast JavaScript bundler
@@ -152,6 +162,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: JS Build Tools / JS Task Runners
   image_url: https://img.stackshare.io/service/25166/default_2dcc9286a150737a14625d18f6f93747f72be430.png
+  detection_source_url: https://github.com/tonylinchao/langflow/blob/dev/src/frontend/package.json
   detection_source: src/frontend/package.json
   last_updated_by: Gabriel Luiz Freitas Almeida
   last_updated_on: 2023-06-08 19:38:41.000000000 Z
@@ -163,6 +174,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/tonylinchao/langflow
   detection_source: Repo Metadata
 - name: GitHub Actions
   description: Automate your workflow from idea to production
@@ -172,6 +184,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/tonylinchao/langflow/blob/dev/.github/workflows/lint.yml
   detection_source: ".github/workflows/lint.yml"
   last_updated_by: ogabrielluiz
   last_updated_on: 2023-03-07 16:08:12.000000000 Z
@@ -184,6 +197,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Javascript Testing Framework
   image_url: https://img.stackshare.io/service/830/jest.png
+  detection_source_url: https://github.com/tonylinchao/langflow/blob/dev/src/frontend/package.json
   detection_source: src/frontend/package.json
   last_updated_by: anovazzi1
   last_updated_on: 2023-02-08 22:50:42.000000000 Z
@@ -196,6 +210,7 @@ tools:
   category: Application Hosting
   sub_category: Web Servers
   image_url: https://img.stackshare.io/service/1052/YMxUfyWf.png
+  detection_source_url: https://github.com/tonylinchao/langflow/blob/dev/src/frontend/nginx.conf
   detection_source: src/frontend/nginx.conf
   last_updated_by: Ibis Prevedello
   last_updated_on: 2023-03-02 22:56:42.000000000 Z
@@ -207,6 +222,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Hosted Package Repository
   image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/tonylinchao/langflow/blob/dev/pyproject.toml
   detection_source: pyproject.toml
   last_updated_by: Ibis Prevedello
   last_updated_on: 2023-03-02 01:55:44.000000000 Z
@@ -219,6 +235,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: JS Build Tools / JS Task Runners
   image_url: https://img.stackshare.io/service/21547/default_1aeac791cde11ff66cc0b20dcc6144eeb185c905.png
+  detection_source_url: https://github.com/tonylinchao/langflow/blob/dev/src/frontend/package.json
   detection_source: src/frontend/package.json
   last_updated_by: anovazzi1
   last_updated_on: 2023-02-08 22:50:42.000000000 Z
@@ -230,6 +247,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/tonylinchao/langflow/blob/dev/src/frontend/package.json
   detection_source: src/frontend/package.json
   last_updated_by: anovazzi1
   last_updated_on: 2023-02-08 22:50:42.000000000 Z
@@ -267,6 +285,7 @@ tools:
   category: Communications
   sub_category: Large Language Models
   image_url: https://img.stackshare.io/service/101870/default_110df704ee9867cb49e02a51b680222cc0b61823.png
+  detection_source_url: https://github.com/tonylinchao/langflow/blob/dev/pyproject.toml
   detection_source: pyproject.toml
   last_updated_by: Ibis Prevedello
   last_updated_on: 2023-03-02 01:55:44.000000000 Z
@@ -331,6 +350,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/tonylinchao/langflow
   detection_source: Repo Metadata
 - name: axios
   description: Promise based HTTP client for the browser and node.js
@@ -866,9 +886,15 @@ tools:
   last_updated_by: Gabriel Luiz Freitas Almeida
   last_updated_on: 2023-06-08 11:45:20.000000000 Z
   vulnerabilities:
-  - name: langchain Code Injection vulnerability
-    cve_id: CVE-2023-36095
-    cve_url: https://github.com/advisories/GHSA-gwqq-6vq7-5j86
+  - name: LangChain vulnerable to arbitrary code execution
+    cve_id: CVE-2023-39659
+    cve_url: https://github.com/advisories/GHSA-prgp-w7vf-ch62
+    detected_date: Dec 8
+    severity: critical
+    first_patched: 0.0.325
+  - name: LangChain vulnerable to arbitrary code execution
+    cve_id: CVE-2023-38896
+    cve_url: https://github.com/advisories/GHSA-92j5-3459-qgp4
     detected_date: Dec 8
     severity: critical
     first_patched: 0.0.236
@@ -878,15 +904,9 @@ tools:
     detected_date: Dec 8
     severity: critical
     first_patched: 
-  - name: LangChain vulnerable to arbitrary code execution
-    cve_id: CVE-2023-38896
-    cve_url: https://github.com/advisories/GHSA-92j5-3459-qgp4
-    detected_date: Dec 8
-    severity: critical
-    first_patched: 0.0.236
-  - name: langchain vulnerable to arbitrary code execution
-    cve_id: CVE-2023-36188
-    cve_url: https://github.com/advisories/GHSA-57fc-8q82-gfp3
+  - name: langchain Code Injection vulnerability
+    cve_id: CVE-2023-36095
+    cve_url: https://github.com/advisories/GHSA-gwqq-6vq7-5j86
     detected_date: Dec 8
     severity: critical
     first_patched: 0.0.236
@@ -896,18 +916,18 @@ tools:
     detected_date: Dec 8
     severity: critical
     first_patched: 0.0.247
-  - name: LangChain vulnerable to arbitrary code execution
-    cve_id: CVE-2023-39659
-    cve_url: https://github.com/advisories/GHSA-prgp-w7vf-ch62
+  - name: langchain arbitrary code execution vulnerability
+    cve_id: CVE-2023-36258
+    cve_url: https://github.com/advisories/GHSA-2qmj-7962-cjq8
     detected_date: Dec 8
     severity: critical
-    first_patched: 0.0.325
-  - name: Langchain OS Command Injection vulnerability
-    cve_id: CVE-2023-34540
-    cve_url: https://github.com/advisories/GHSA-x32c-59v5-h7fg
+    first_patched: 0.0.247
+  - name: langchain vulnerable to arbitrary code execution
+    cve_id: CVE-2023-36281
+    cve_url: https://github.com/advisories/GHSA-7gfq-f96f-g85j
     detected_date: Dec 8
     severity: critical
-    first_patched: 0.0.225
+    first_patched: 0.0.312
   - name: Langchain vulnerable to arbitrary code execution via the evaluate function
       in the numexpr library
     cve_id: CVE-2023-39631
@@ -915,30 +935,30 @@ tools:
     detected_date: Dec 8
     severity: critical
     first_patched: 0.0.308
+  - name: Langchain OS Command Injection vulnerability
+    cve_id: CVE-2023-34540
+    cve_url: https://github.com/advisories/GHSA-x32c-59v5-h7fg
+    detected_date: Dec 8
+    severity: critical
+    first_patched: 0.0.225
   - name: langchain vulnerable to arbitrary code execution
-    cve_id: CVE-2023-36281
-    cve_url: https://github.com/advisories/GHSA-7gfq-f96f-g85j
+    cve_id: CVE-2023-36188
+    cve_url: https://github.com/advisories/GHSA-57fc-8q82-gfp3
     detected_date: Dec 8
     severity: critical
-    first_patched: 0.0.312
-  - name: langchain arbitrary code execution vulnerability
-    cve_id: CVE-2023-36258
-    cve_url: https://github.com/advisories/GHSA-2qmj-7962-cjq8
-    detected_date: Dec 8
-    severity: critical
-    first_patched: 0.0.247
-  - name: langchain SQL Injection vulnerability
-    cve_id: CVE-2023-36189
-    cve_url: https://github.com/advisories/GHSA-7q94-qpjr-xpgm
-    detected_date: Dec 8
-    severity: high
-    first_patched: 
+    first_patched: 0.0.236
   - name: LangChain Server Side Request Forgery vulnerability
     cve_id: CVE-2023-46229
     cve_url: https://github.com/advisories/GHSA-655w-fm8m-m478
     detected_date: Dec 8
     severity: high
     first_patched: 0.0.317
+  - name: langchain SQL Injection vulnerability
+    cve_id: CVE-2023-36189
+    cve_url: https://github.com/advisories/GHSA-7q94-qpjr-xpgm
+    detected_date: Dec 8
+    severity: high
+    first_patched: 
   - name: Langchain Server-Side Request Forgery vulnerability
     cve_id: CVE-2023-32786
     cve_url: https://github.com/advisories/GHSA-6h8p-4hx9-w66c
