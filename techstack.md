@@ -3,31 +3,31 @@
 ## Tech Stack
 tonylinchao/langflow is built on the following main stack:
 
-- [Jest](http://facebook.github.io/jest/) – Javascript Testing Framework
-- [Python](https://www.python.org) – Languages
-- [Node.js](http://nodejs.org/) – Frameworks (Full Stack)
-- [React](https://reactjs.org/) – Javascript UI Libraries
-- [NGINX](http://nginx.org) – Web Servers
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
+- [Python](https://www.python.org) – Languages
 - [TypeScript](http://www.typescriptlang.org) – Languages
 - [Autoprefixer](https://github.com/postcss/autoprefixer) – CSS Pre-processors / Extensions
-- [Lodash](https://lodash.com) – Javascript Utilities & Libraries
+- [Node.js](http://nodejs.org/) – Frameworks (Full Stack)
 - [PostCSS](https://github.com/postcss/postcss) – CSS Pre-processors / Extensions
+- [React](https://reactjs.org/) – Javascript UI Libraries
 - [React Router](https://github.com/rackt/react-router) – JavaScript Framework Components
-- [Shell](https://en.wikipedia.org/wiki/Shell_script) – Shells
-- [axios](https://github.com/mzabriskie/axios) – Javascript Utilities & Libraries
 - [Tailwind CSS](https://tailwindcss.com) – Front-End Frameworks
-- [GitHub Actions](https://github.com/features/actions) – Continuous Integration
-- [Vite](https://vitejs.dev/) – JS Build Tools / JS Task Runners
+- [Chroma](https://www.trychroma.com/) – Vector Databases
+- [Docker](https://www.docker.com/) – Virtual Machine Platforms & Containers
 - [Esbuild](https://esbuild.github.io/) – JS Build Tools / JS Task Runners
-- [OpenAI](https://openai.com/) – Large Language Models
-- [LangChain](https://github.com/hwchase17/langchain) – Large Language Model Tools
-- [Chroma](https://www.trychroma.com/) – Databases
-- [LLaMA](https://ai.meta.com/blog/large-language-model-llama-meta-ai/) – Large Language Models
+- [GitHub Actions](https://github.com/features/actions) – Continuous Integration
+- [Jest](http://facebook.github.io/jest/) – Javascript Testing Framework
+- [NGINX](http://nginx.org) – Web Servers
+- [Vite](https://vitejs.dev/) – JS Build Tools / JS Task Runners
 - [Claude](https://www.anthropic.com/product) – Large Language Models
 - [Cohere.com](https://cohere.com/) – Large Language Models
+- [LLaMA](https://ai.meta.com/blog/large-language-model-llama-meta-ai/) – Large Language Models
+- [LangChain](https://github.com/hwchase17/langchain) – Large Language Model Tools
+- [Lodash](https://lodash.com) – Javascript Utilities & Libraries
+- [OpenAI](https://openai.com/) – Large Language Models
 - [Sentence Transformers](https://www.sbert.net/) – NLP / Sentiment Analysis
-- [Docker](https://www.docker.com/) – Virtual Machine Platforms & Containers
+- [Shell](https://en.wikipedia.org/wiki/Shell_script) – Shells
+- [axios](https://github.com/mzabriskie/axios) – Javascript Utilities & Libraries
 
 Full tech stack [here](/techstack.md)
 
@@ -37,31 +37,31 @@ Full tech stack [here](/techstack.md)
 ## Tech Stack
 tonylinchao/langflow is built on the following main stack:
 
-- <img width='25' height='25' src='https://img.stackshare.io/service/830/jest.png' alt='Jest'/> [Jest](http://facebook.github.io/jest/) – Javascript Testing Framework
-- <img width='25' height='25' src='https://img.stackshare.io/service/993/pUBY5pVj.png' alt='Python'/> [Python](https://www.python.org) – Languages
-- <img width='25' height='25' src='https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png' alt='Node.js'/> [Node.js](http://nodejs.org/) – Frameworks (Full Stack)
-- <img width='25' height='25' src='https://img.stackshare.io/service/1020/OYIaJ1KK.png' alt='React'/> [React](https://reactjs.org/) – Javascript UI Libraries
-- <img width='25' height='25' src='https://img.stackshare.io/service/1052/YMxUfyWf.png' alt='NGINX'/> [NGINX](http://nginx.org) – Web Servers
 - <img width='25' height='25' src='https://img.stackshare.io/service/1209/javascript.jpeg' alt='JavaScript'/> [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
+- <img width='25' height='25' src='https://img.stackshare.io/service/993/pUBY5pVj.png' alt='Python'/> [Python](https://www.python.org) – Languages
 - <img width='25' height='25' src='https://img.stackshare.io/service/1612/bynNY5dJ.jpg' alt='TypeScript'/> [TypeScript](http://www.typescriptlang.org) – Languages
 - <img width='25' height='25' src='https://img.stackshare.io/service/2202/72d087642cfce6fef6f2dabec5bf49e8_400x400.png' alt='Autoprefixer'/> [Autoprefixer](https://github.com/postcss/autoprefixer) – CSS Pre-processors / Extensions
-- <img width='25' height='25' src='https://img.stackshare.io/service/2438/lodash.png' alt='Lodash'/> [Lodash](https://lodash.com) – Javascript Utilities & Libraries
+- <img width='25' height='25' src='https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png' alt='Node.js'/> [Node.js](http://nodejs.org/) – Frameworks (Full Stack)
 - <img width='25' height='25' src='https://img.stackshare.io/service/3339/rlFcjEdI.png' alt='PostCSS'/> [PostCSS](https://github.com/postcss/postcss) – CSS Pre-processors / Extensions
+- <img width='25' height='25' src='https://img.stackshare.io/service/1020/OYIaJ1KK.png' alt='React'/> [React](https://reactjs.org/) – Javascript UI Libraries
 - <img width='25' height='25' src='https://img.stackshare.io/service/3350/8261421.png' alt='React Router'/> [React Router](https://github.com/rackt/react-router) – JavaScript Framework Components
-- <img width='25' height='25' src='https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png' alt='Shell'/> [Shell](https://en.wikipedia.org/wiki/Shell_script) – Shells
-- <img width='25' height='25' src='https://img.stackshare.io/no-img-open-source.png' alt='axios'/> [axios](https://github.com/mzabriskie/axios) – Javascript Utilities & Libraries
 - <img width='25' height='25' src='https://img.stackshare.io/service/8158/default_660b7c41c3ba489cb581eec89c04655404258c19.png' alt='Tailwind CSS'/> [Tailwind CSS](https://tailwindcss.com) – Front-End Frameworks
-- <img width='25' height='25' src='https://img.stackshare.io/service/11563/actions.png' alt='GitHub Actions'/> [GitHub Actions](https://github.com/features/actions) – Continuous Integration
-- <img width='25' height='25' src='https://img.stackshare.io/service/21547/default_1aeac791cde11ff66cc0b20dcc6144eeb185c905.png' alt='Vite'/> [Vite](https://vitejs.dev/) – JS Build Tools / JS Task Runners
+- <img width='25' height='25' src='https://img.stackshare.io/service/101828/default_de3ae68ae3ebc7fda7f97083ea89a050444976ff.png' alt='Chroma'/> [Chroma](https://www.trychroma.com/) – Vector Databases
+- <img width='25' height='25' src='https://img.stackshare.io/service/586/n4u37v9t_400x400.png' alt='Docker'/> [Docker](https://www.docker.com/) – Virtual Machine Platforms & Containers
 - <img width='25' height='25' src='https://img.stackshare.io/service/25166/default_2dcc9286a150737a14625d18f6f93747f72be430.png' alt='Esbuild'/> [Esbuild](https://esbuild.github.io/) – JS Build Tools / JS Task Runners
-- <img width='25' height='25' src='https://img.stackshare.io/service/48786/default_8b1119bcbb159cebebc2f6cfc9cd2e359b169d22.jpg' alt='OpenAI'/> [OpenAI](https://openai.com/) – Large Language Models
-- <img width='25' height='25' src='https://img.stackshare.io/service/48790/default_5b6c6b73f1ff3775c85d2a1ba954cb87e30cbf13.jpg' alt='LangChain'/> [LangChain](https://github.com/hwchase17/langchain) – Large Language Model Tools
-- <img width='25' height='25' src='https://img.stackshare.io/service/101828/default_de3ae68ae3ebc7fda7f97083ea89a050444976ff.png' alt='Chroma'/> [Chroma](https://www.trychroma.com/) – Databases
-- <img width='25' height='25' src='https://img.stackshare.io/service/101870/default_110df704ee9867cb49e02a51b680222cc0b61823.png' alt='LLaMA'/> [LLaMA](https://ai.meta.com/blog/large-language-model-llama-meta-ai/) – Large Language Models
+- <img width='25' height='25' src='https://img.stackshare.io/service/11563/actions.png' alt='GitHub Actions'/> [GitHub Actions](https://github.com/features/actions) – Continuous Integration
+- <img width='25' height='25' src='https://img.stackshare.io/service/830/jest.png' alt='Jest'/> [Jest](http://facebook.github.io/jest/) – Javascript Testing Framework
+- <img width='25' height='25' src='https://img.stackshare.io/service/1052/YMxUfyWf.png' alt='NGINX'/> [NGINX](http://nginx.org) – Web Servers
+- <img width='25' height='25' src='https://img.stackshare.io/service/21547/default_1aeac791cde11ff66cc0b20dcc6144eeb185c905.png' alt='Vite'/> [Vite](https://vitejs.dev/) – JS Build Tools / JS Task Runners
 - <img width='25' height='25' src='https://img.stackshare.io/service/101883/default_fddf1fbe1d52baf4dac573b2b7fc24b78cc729b1.jpg' alt='Claude'/> [Claude](https://www.anthropic.com/product) – Large Language Models
 - <img width='25' height='25' src='https://img.stackshare.io/service/101884/default_cf6d4a823cb5b37940800efc1e952b6a6c74e32a.png' alt='Cohere.com'/> [Cohere.com](https://cohere.com/) – Large Language Models
+- <img width='25' height='25' src='https://img.stackshare.io/service/101870/default_110df704ee9867cb49e02a51b680222cc0b61823.png' alt='LLaMA'/> [LLaMA](https://ai.meta.com/blog/large-language-model-llama-meta-ai/) – Large Language Models
+- <img width='25' height='25' src='https://img.stackshare.io/service/48790/default_5b6c6b73f1ff3775c85d2a1ba954cb87e30cbf13.jpg' alt='LangChain'/> [LangChain](https://github.com/hwchase17/langchain) – Large Language Model Tools
+- <img width='25' height='25' src='https://img.stackshare.io/service/2438/lodash.png' alt='Lodash'/> [Lodash](https://lodash.com) – Javascript Utilities & Libraries
+- <img width='25' height='25' src='https://img.stackshare.io/service/48786/default_8b1119bcbb159cebebc2f6cfc9cd2e359b169d22.jpg' alt='OpenAI'/> [OpenAI](https://openai.com/) – Large Language Models
 - <img width='25' height='25' src='https://img.stackshare.io/service/109224/default_1167b8b1fc15f3526701cde5a789734ae865925d.png' alt='Sentence Transformers'/> [Sentence Transformers](https://www.sbert.net/) – NLP / Sentiment Analysis
-- <img width='25' height='25' src='https://img.stackshare.io/service/586/n4u37v9t_400x400.png' alt='Docker'/> [Docker](https://www.docker.com/) – Virtual Machine Platforms & Containers
+- <img width='25' height='25' src='https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png' alt='Shell'/> [Shell](https://en.wikipedia.org/wiki/Shell_script) – Shells
+- <img width='25' height='25' src='https://img.stackshare.io/no-img-open-source.png' alt='axios'/> [axios](https://github.com/mzabriskie/axios) – Javascript Utilities & Libraries
 
 Full tech stack [here](/techstack.md)
 
@@ -72,7 +72,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [tonylinchao/langflow](https://github.com/tonylinchao/langflow)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|76<br/>Tools used|01/05/24 <br/>Report generated|
+|76<br/>Tools used|02/29/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -368,7 +368,7 @@ Full tech stack [here](/techstack.md)
 |[table](https://www.npmjs.com/table)|v6.8.1|06/06/23|Cristhian Zanforlin Lousa |BSD-3-Clause|N/A|
 |[tailwindcss](https://www.npmjs.com/tailwindcss)|v3.3.2|06/07/23|Cristhian Zanforlin Lousa |MIT|N/A|
 |[uuid](https://www.npmjs.com/uuid)|v9.0.0|06/07/23|Cristhian Zanforlin Lousa |MIT|N/A|
-|[vite](https://www.npmjs.com/vite)|v4.3.5|06/07/23|Cristhian Zanforlin Lousa |N/A|[CVE-2023-34092](https://github.com/advisories/GHSA-353f-5xf4-qw67) (High)|
+|[vite](https://www.npmjs.com/vite)|v4.3.5|06/07/23|Cristhian Zanforlin Lousa |N/A|[CVE-2024-23331](https://github.com/advisories/GHSA-c24v-8rfc-w8vw) (High)<br/>[CVE-2023-34092](https://github.com/advisories/GHSA-353f-5xf4-qw67) (High)|
 
 
 ## <img width='24' height='24' src='https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg'/> PyPI (22)
@@ -382,11 +382,11 @@ Full tech stack [here](/techstack.md)
 |[dill](https://pypi.org/project/dill)|v0.3.6|04/01/23|Gabriel Almeida |BSD-3-Clause|N/A|
 |[docstring-parser](https://pypi.org/project/docstring-parser)|v0.15|04/14/23|Ibis Prevedello |MIT|N/A|
 |[fake-useragent](https://pypi.org/project/fake-useragent)|v1.1.3|04/12/23|Ibis Prevedello |Apache-2.0|N/A|
-|[fastapi](https://pypi.org/project/fastapi)|v0.96.0|06/05/23|Gabriel Luiz Freitas Almeida |MIT|N/A|
+|[fastapi](https://pypi.org/project/fastapi)|v0.96.0|06/05/23|Gabriel Luiz Freitas Almeida |MIT|[](https://github.com/advisories/GHSA-qf9m-vfgh-m389) (High)<br/>[CVE-2024-24762](https://github.com/advisories/GHSA-2jv5-9r88-3w3p) (High)|
 |[google-api-python-client](https://pypi.org/project/google-api-python-client)|v2.88.0|05/28/23|Gabriel Almeida |Apache-2.0|N/A|
 |[gunicorn](https://pypi.org/project/gunicorn)|v20.1.0|03/13/23|Ibis Prevedello |MIT|N/A|
 |[huggingface-hub](https://pypi.org/project/huggingface-hub)|v0.13.4|04/06/23|Gabriel Almeida |N/A|N/A|
-|[langchain](https://pypi.org/project/langchain)|v0.0.194|06/08/23|Gabriel Luiz Freitas Almeida |N/A|[CVE-2023-39659](https://github.com/advisories/GHSA-prgp-w7vf-ch62) (Critical)<br/>[CVE-2023-38896](https://github.com/advisories/GHSA-92j5-3459-qgp4) (Critical)<br/>[CVE-2023-38860](https://github.com/advisories/GHSA-fj32-q626-pjjc) (Critical)<br/>[CVE-2023-36095](https://github.com/advisories/GHSA-gwqq-6vq7-5j86) (Critical)<br/>[CVE-2023-34541](https://github.com/advisories/GHSA-6643-h7h5-x9wh) (Critical)<br/>[CVE-2023-36258](https://github.com/advisories/GHSA-2qmj-7962-cjq8) (Critical)<br/>[CVE-2023-36281](https://github.com/advisories/GHSA-7gfq-f96f-g85j) (Critical)<br/>[CVE-2023-39631](https://github.com/advisories/GHSA-f73w-4m7g-ch9x) (Critical)<br/>[CVE-2023-34540](https://github.com/advisories/GHSA-x32c-59v5-h7fg) (Critical)<br/>[CVE-2023-36188](https://github.com/advisories/GHSA-57fc-8q82-gfp3) (Critical)<br/>[CVE-2023-46229](https://github.com/advisories/GHSA-655w-fm8m-m478) (High)<br/>[CVE-2023-36189](https://github.com/advisories/GHSA-7q94-qpjr-xpgm) (High)<br/>[CVE-2023-32786](https://github.com/advisories/GHSA-6h8p-4hx9-w66c) (High)|
+|[langchain](https://pypi.org/project/langchain)|v0.0.194|06/08/23|Gabriel Luiz Freitas Almeida |N/A|[CVE-2023-38860](https://github.com/advisories/GHSA-fj32-q626-pjjc) (Critical)<br/>[CVE-2023-36095](https://github.com/advisories/GHSA-gwqq-6vq7-5j86) (Critical)<br/>[CVE-2023-34541](https://github.com/advisories/GHSA-6643-h7h5-x9wh) (Critical)<br/>[CVE-2023-36258](https://github.com/advisories/GHSA-2qmj-7962-cjq8) (Critical)<br/>[CVE-2023-36281](https://github.com/advisories/GHSA-7gfq-f96f-g85j) (Critical)<br/>[CVE-2023-39631](https://github.com/advisories/GHSA-f73w-4m7g-ch9x) (Critical)<br/>[CVE-2023-34540](https://github.com/advisories/GHSA-x32c-59v5-h7fg) (Critical)<br/>[CVE-2023-39659](https://github.com/advisories/GHSA-prgp-w7vf-ch62) (Critical)<br/>[CVE-2023-36188](https://github.com/advisories/GHSA-57fc-8q82-gfp3) (Critical)<br/>[CVE-2023-38896](https://github.com/advisories/GHSA-92j5-3459-qgp4) (Critical)<br/>[CVE-2023-32786](https://github.com/advisories/GHSA-6h8p-4hx9-w66c) (High)<br/>[CVE-2023-46229](https://github.com/advisories/GHSA-655w-fm8m-m478) (High)<br/>[CVE-2023-36189](https://github.com/advisories/GHSA-7q94-qpjr-xpgm) (High)<br/>[CVE-2024-0243](https://github.com/advisories/GHSA-h9j7-5xvc-qhg5) (Low)|
 |[lxml](https://pypi.org/project/lxml)|v4.9.2|04/12/23|Ibis Prevedello |BSD-3-Clause|N/A|
 |[multiprocess](https://pypi.org/project/multiprocess)|v0.70.14|06/07/23|Gabriel Luiz Freitas Almeida |BSD-3-Clause|N/A|
 |[networkx](https://pypi.org/project/networkx)|v3.1|04/10/23|Gabriel Almeida |BSD-3-Clause|N/A|
