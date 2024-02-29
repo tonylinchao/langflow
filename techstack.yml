@@ -2,7 +2,7 @@ repo_name: tonylinchao/langflow
 report_id: 7b83b13fe9758f20d1c028d9e6f2158c
 version: 0.1
 repo_type: Public
-timestamp: '2024-01-05T08:14:50+00:00'
+timestamp: '2024-02-29T19:12:41+00:00'
 requested_by: ogabrielluiz
 provider: github
 branch: dev
@@ -136,7 +136,7 @@ tools:
   open_source: true
   hosted_saas: false
   category: Data Stores
-  sub_category: Databases
+  sub_category: Large Language Model Tools
   image_url: https://img.stackshare.io/service/101828/default_de3ae68ae3ebc7fda7f97083ea89a050444976ff.png
   detection_source_url: https://github.com/tonylinchao/langflow/blob/dev/pyproject.toml
   detection_source: pyproject.toml
@@ -715,6 +715,13 @@ tools:
   last_updated_by: Cristhian Zanforlin Lousa
   last_updated_on: 2023-06-07 01:55:15.000000000 Z
   vulnerabilities:
+  - name: Vite dev server option `server.fs.deny` can be bypassed when hosted on case-insensitive
+      filesystem
+    cve_id: CVE-2024-23331
+    cve_url: https://github.com/advisories/GHSA-c24v-8rfc-w8vw
+    detected_date: Jan 20
+    severity: high
+    first_patched: 4.5.2
   - name: Vite Server Options (server.fs.deny) can be bypassed using double forward-slash
       (//)
     cve_id: CVE-2023-34092
@@ -831,6 +838,19 @@ tools:
   detection_source: pyproject.toml
   last_updated_by: Gabriel Luiz Freitas Almeida
   last_updated_on: 2023-06-05 00:42:14.000000000 Z
+  vulnerabilities:
+  - name: 'Duplicate Advisory: FastAPI Content-Type Header ReDoS'
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-qf9m-vfgh-m389
+    detected_date: Feb 6
+    severity: high
+    first_patched: 0.109.1
+  - name: python-multipart vulnerable to Content-Type Header ReDoS
+    cve_id: CVE-2024-24762
+    cve_url: https://github.com/advisories/GHSA-2jv5-9r88-3w3p
+    detected_date: Feb 17
+    severity: high
+    first_patched: 0.109.1
 - name: google-api-python-client
   description: Google API Client Library for Python
   package_url: https://pypi.org/project/google-api-python-client
@@ -887,18 +907,6 @@ tools:
   last_updated_on: 2023-06-08 11:45:20.000000000 Z
   vulnerabilities:
   - name: LangChain vulnerable to arbitrary code execution
-    cve_id: CVE-2023-39659
-    cve_url: https://github.com/advisories/GHSA-prgp-w7vf-ch62
-    detected_date: Dec 8
-    severity: critical
-    first_patched: 0.0.325
-  - name: LangChain vulnerable to arbitrary code execution
-    cve_id: CVE-2023-38896
-    cve_url: https://github.com/advisories/GHSA-92j5-3459-qgp4
-    detected_date: Dec 8
-    severity: critical
-    first_patched: 0.0.236
-  - name: LangChain vulnerable to arbitrary code execution
     cve_id: CVE-2023-38860
     cve_url: https://github.com/advisories/GHSA-fj32-q626-pjjc
     detected_date: Dec 8
@@ -941,12 +949,30 @@ tools:
     detected_date: Dec 8
     severity: critical
     first_patched: 0.0.225
+  - name: LangChain vulnerable to arbitrary code execution
+    cve_id: CVE-2023-39659
+    cve_url: https://github.com/advisories/GHSA-prgp-w7vf-ch62
+    detected_date: Dec 8
+    severity: critical
+    first_patched: 0.0.325
   - name: langchain vulnerable to arbitrary code execution
     cve_id: CVE-2023-36188
     cve_url: https://github.com/advisories/GHSA-57fc-8q82-gfp3
     detected_date: Dec 8
     severity: critical
     first_patched: 0.0.236
+  - name: LangChain vulnerable to arbitrary code execution
+    cve_id: CVE-2023-38896
+    cve_url: https://github.com/advisories/GHSA-92j5-3459-qgp4
+    detected_date: Dec 8
+    severity: critical
+    first_patched: 0.0.236
+  - name: Langchain Server-Side Request Forgery vulnerability
+    cve_id: CVE-2023-32786
+    cve_url: https://github.com/advisories/GHSA-6h8p-4hx9-w66c
+    detected_date: Dec 8
+    severity: high
+    first_patched: 0.0.329
   - name: LangChain Server Side Request Forgery vulnerability
     cve_id: CVE-2023-46229
     cve_url: https://github.com/advisories/GHSA-655w-fm8m-m478
@@ -959,12 +985,12 @@ tools:
     detected_date: Dec 8
     severity: high
     first_patched: 
-  - name: Langchain Server-Side Request Forgery vulnerability
-    cve_id: CVE-2023-32786
-    cve_url: https://github.com/advisories/GHSA-6h8p-4hx9-w66c
-    detected_date: Dec 8
-    severity: high
-    first_patched: 0.0.329
+  - name: langchain Server-Side Request Forgery vulnerability
+    cve_id: CVE-2024-0243
+    cve_url: https://github.com/advisories/GHSA-h9j7-5xvc-qhg5
+    detected_date: Feb 27
+    severity: low
+    first_patched: 0.1.0
 - name: lxml
   description: Powerful and Pythonic XML processing library combining libxml2/libxslt
     with the ElementTree API
